@@ -1,2 +1,1 @@
-# test-repo
-techmaster git test repo
+Learning Git
