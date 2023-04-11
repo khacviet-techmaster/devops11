@@ -1,3 +1,4 @@
 FROM alpine
+WORKDIR /app
 COPY ./argument.sh /
-ENTRYPOINT ["/argument.sh"]
+CMD ["/argument.sh"]

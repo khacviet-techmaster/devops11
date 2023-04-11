@@ -10,7 +10,7 @@ RUN pip install -r requirements.txt
 EXPOSE 5000
 
 # biến môi trường
-ENV FLASK_APP='hello_flask.py'
+ENV FLASK_APP 'hello_flask.py'
 
 # Command để khởi chạy app
 CMD ["flask", "run", "--host", "0.0.0.0"]
